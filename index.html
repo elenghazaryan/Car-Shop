@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet"  href="style.css">
+
+    <title>Elen's Shop</title>
+  </head>
+  <body>
+
+    <!--Header-->
+   <div class="container-fluid">
+    <div class="row p-2 align-items-center " id="firstrow">
+        <div class="col-md-3 d-none d-md-block col-lg-3 text-light" >
+          <h5 id="text">Tel: (+374) 055-55-55-55-55</h5> 
+        </div>
+        <div class="text-light col-md-3 d-none d-md-block col-lg-3 col-xl-3"><h3 id="text">Welcome to our store</h3></div>
+        <div class="col-md-2 col-sm-6 col-6">
+          <div class="form">
+            <select class="custom-select">
+              <option>EN</option>
+              <option>AM</option>
+              <option>RU</option>
+            </select>
+          </div>
+        </div>
+        <div class="gumar col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2">
+          <select class="custom-select">
+              <option value="dram">AMD</option>
+              <option value="dolar">USD</option>
+              <option value="rubli">EUR</option>
+          </select>
+   
+        </div>
+        <button type="button" class="btn  col-md-2 col-lg-2 d-none d-md-block" id="button">
+      <a href="myorders.html" id="text"> wishlist </a><span class="badge badge-light badge-light">5</span>
+        </button>
+       
+        </div>
+
+    </div>
+
+
+
+  <div class="row  align-items-center p-2  text-light" id="secondrow">
+      <div class="logo col-8 col-md-5">
+          <a href="file:///D:/Temp/Desktop/TUMO/Bootstrap/index.html" class="link">
+              <img src="https://previews.123rf.com/images/logomine/logomine1812/logomine181200004/122947569-car-sale-or-service-icon-logo-for-automotive-industry-auto-design-vector-logo-automobile-repair-serv.jpg"   width="150" height="80">
+          </a>
+      </div>
+         <div class="search d-none d-md-block col-md-5">
+          <form class="form-inline">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search in store" aria-label="Search">
+              <button class="btn btn-outline-primary my-2 my-sm-0" type="submit" >Search</button>
+            </form>
+         </div>
+             <div class="dropdown col-4 col-md-2">
+                   <button class="btn  dropdown-toggle" id="bt1" type="button" data-toggle="dropdown" >
+                      My Account
+                   </button>
+                     <div class="dropdown-menu">
+                        <a class="dropdown-item" data-toggle="modal" href="#LoginModal">Login</a>
+                        <a class="dropdown-item" data-toggle="modal" href="#RegisterModal">Register</a>
+                        <a class="dropdown-item" href="myorders.html">My Orders</a>
+                        <a class="dropdown-item" href="myaccount.html">Account Settings</a>
+                      </div>
+              </div>
+  </div>
+<!-- End Header -->
+
+
+<!-- Choose Cars/Bikes/Motorcycles -->
+  <div class="row p-3 badge-success text-center" id="thirdrow">
+    <a class=" dropdown-toggle d-none d-md-block col-md-2" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+       Cars
+    </a>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+           <a class="dropdown-item" href="shop.html">Sedan</a>
+           <a class="dropdown-item" href="shop.html">Hatchback</a>
+           <a class="dropdown-item" href="shop.html">Truck</a>
+           <a class="dropdown-item" href="shop.html">Convertible</a>
+           <a class="dropdown-item" href="shop.html">Crossover</a>
+       </div>
+        <div class="dropdown d-none d-md-block col-md-2">
+           <a class="  bg-econdary dropdown-toggle" href="#" role="button" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Bikes
+           </a>
+             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="shop.html">Road Bike</a>
+                <a class="dropdown-item" href="shop.html">Mountain Bike</a>
+                <a class="dropdown-item" href="shop.html">Fitness Hybrid</a>
+                <a class="dropdown-item" href="shop.html">Electric Bike</a>
+                <a class="dropdown-item" href="shop.html">Adult Tricycles</a>
+             </div>
+        </div>
+        <div class="dropdown d-none d-md-block col-md-2">
+          <a class=" bg-econdary dropdown-toggle" href="#" role="button" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Motorcycles
+           </a>
+           <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="shop.html">Standard</a>
+              <a class="dropdown-item" href="shop.html">Cruiser</a>
+              <a class="dropdown-item" href="shop.html">Moped</a>
+              <a class="dropdown-item" href="shop.html">Scooter</a>
+              <a class="dropdown-item" href="shop.html">Electric</a>
+           </div>
+        </div>
+      
+        
+        <!-- Burger -->
+     <div class="row  ">
+         <div class="col-12 p-0 d-block d-md-none">
+                <nav class="navbar navbar-expand-xl navbar-dark b25">
+         
+         <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="outline: none; border: none;">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+       
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto ml-auto">
+       
+            
+              <li class="nav-item dropdown text-center">
+               <a class="d-md-none nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 Cars
+               </a>
+               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                 <a class="dropdown-item" href="shop.html">Sedan</a>
+                 <a class="dropdown-item" href="shop.html">Hatchback</a>
+                 <a class="dropdown-item" href="shop.html">Truck</a>
+                 <a class="dropdown-item" href="shop.html">Convertible</a>
+                 <a class="dropdown-item" href="shop.html">Crossover</a>
+               </div>
+             </li>
+              <li class="nav-item dropdown text-center">
+               <a class="d-md-none nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 Bikes
+               </a>
+               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                 <a class="dropdown-item" href="shop.html">Road Bike</a>
+                <a class="dropdown-item" href="shop.html">Mountain Bike</a>
+                <a class="dropdown-item" href="shop.html">Fitness Hybrid</a>
+                <a class="dropdown-item" href="shop.html">Electric Bike</a>
+                <a class="dropdown-item" href="shop.html">Adult Tricycles</a>
+               </div>
+             </li>
+              <li class="nav-item dropdown text-center">
+               <a class="d-md-none nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 Motorcycles
+               </a>
+               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                 <a class="dropdown-item" href="shop.html">Standard</a>
+                 <a class="dropdown-item" href="shop.html">Cruiser</a>
+                 <a class="dropdown-item" href="shop.html">Moped</a>
+                 <a class="dropdown-item" href="shop.html">Scooter</a>
+                 <a class="dropdown-item" href="shop.html">Electric</a>
+               </div>
+              </li>
+              
+           </ul>
+           
+         </div>
+       </nav>
+         </div>     
+       </div> 
+  </div>
+</div>
+   </div>
+<!-- Burger End -->
+
+
+<!-- My Account/Login -->
+<div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <button type="submit" class="btn" id="button">Login</button>
+</form>
+      </div>
+      <div class="modal-footer">
+       </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- My Account/Register -->
+<div class="modal fade" id="RegisterModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Register</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationDefault01">First name</label>
+        <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
+      </div>
+      <div class="col-md-6 mb-3">
+        <label for="validationDefault02">Last name</label>
+        <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationDefault03">City</label>
+        <input type="text" class="form-control" id="validationDefault03" required>
+      </div>
+      <div class="col-md-3 mb-3">
+        <label for="validationDefault04">State</label>
+        <select class="custom-select" id="validationDefault04" required>
+          <option selected disabled value="">Choose...</option>
+        </select>
+      </div>
+      <div class="col-md-3 mb-3">
+        <label for="validationDefault05">Zip</label>
+        <input type="text" class="form-control" id="validationDefault05" required>
+      </div>
+    </div>
+    <button class="btn " type="submit" id="button">Submit</button>
+      </form>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!--Body-->
+<br>
+<div class="alert alert-warning alert-dismissible fade show" role="alert"> Because of <strong>COVID-19 </strong>your order may be a little late please patiently wait! Thank you!
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+<div id="carouselExampleFade" class="carousel slide carousel-fade d-none d-md-block" data-ride="carousel" >
+  <div class="carousel-inner">
+    <div class="carousel-item active" style="width: 100%;height: 20%">
+      <img src="https://www.selectluxury.com/galleria_images/3371/3371_main_l.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item" style="width: 100%;height: 50%">
+      <img src="https://cdn.shopify.com/s/files/1/1772/1703/t/16/assets/cowboy-3-removable-battery_w_4.jpg?v=12363600793069483100" class="d-block w-100" >
+    </div>
+    <div class="carousel-item" style="width: 100%;height: 50%">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/61sXs2%2B47PL.jpg" class="d-block w-100">
+    </div>
+    <div class="carousel-item" style="width: 100%;height: 50%">
+      <img src="https://i.pinimg.com/originals/1f/ed/37/1fed379a2ae7063efae811a5241ab672.jpg" class="d-block w-100">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<div class="container-fluid">
+  <br>
+  <div id="help">
+  <div><h4 id="helptext">How Can We Help?</h4></div>
+<br/>
+
+
+  <div class="row " id="help">
+    <div class="card col-12 col-md-4" style="width: 14rem;">
+  <img src="https://www.kbb.com/wp-content/uploads/2020/04/HaveACarBroughttoYoulllustration-BlueBG-1.png" class="card-img-top" >
+  <div class="card-body">
+    <h5 class="card-title">Have a Car Brought to You</h5>
+    <p class="card-text">Test drive or buy from the safety and comfort of home.</p>
+    <a href="#" class="btn btn-primary">More about home services</a>
+  </div>
+</div>
+
+<div class="card col-12 col-md-4" style="width: 12rem; ">
+  <img src="https://www.kbb.com/wp-content/uploads/2020/04/HaveACarBroughttoYoulllustration-BlueBG-1.png" class="card-img-top" >
+  <div class="card-body">
+    <h5 class="card-title">Have a Bike Brought to You</h5>
+    <p class="card-text">Test drive or buy from the safety and comfort of home.</p>
+    <a href="#" class="btn btn-primary">More about home services</a>
+  </div>
+</div>
+
+<div class="card col-12 col-md-4" style="width: 14rem;">
+  <img src="https://www.kbb.com/wp-content/uploads/2020/04/HaveACarBroughttoYoulllustration-BlueBG-1.png" class="card-img-top" >
+  <div class="card-body">
+    <h5 class="card-title">Have a Motorcycle Brought to You</h5>
+    <p class="card-text">Test drive or buy from the safety and comfort of home.</p>
+    <a href="#" class="btn btn-primary">More about home services</a>
+  </div>
+</div>
+</div>
+<br>
+  </div>
+
+  <div class="row">
+    <div class="card col-12 col-md-4 col-lg-6 col-xl-3"  >
+        <img src="https://www.bricklanebikes.co.uk/images/thumbs/0038464_squid-squidcross-cx-bike-custom_625.jpeg" class="card-img-top img-fluid" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Our Bikes</h5>
+          <p class="card-text"></p>
+          <a href="#" class="btn btn-primary">Show More...</a>
+        </div>
+      </div>
+
+
+      <div class="card col-12  col-sm-6  col-md-4 col-lg-12 col-xl-3 d-none d-sm-block d-lg-none d-xl-block"  >
+        <img src="https://cdn1.polaris.com/globalassets/indian/2019/model/vehicle-cards/ftr-1200-domestic.png?v=79b46970" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Motorcycles</h5>
+          <p class="card-text"></p>
+          <a href="#" class="btn btn-primary">Show More..</a>
+        </div>
+      </div>
+
+
+      <div class="card col-12 col-md-4 col-lg-6 col-xl-3"  >
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTIE5mvD5j7u_BFQI4f1iXgxKXnTqA8j18A_A&usqp=CAU" class="card-img-top img-fluid img-fluid" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Our Bikes</h5>
+          <p class="card-text"></p>
+          <a href="#" class="btn btn-primary">Show More...</a>
+        </div>
+      </div> 
+
+       
+
+      <div class="card col-12  col-sm-6  col-md-12 col-lg-3 col-xl-3"  >
+        <img src="https://assets.newatlas.com/dims4/default/444aaf9/2147483647/strip/true/crop/6720x4480+0+0/resize/1200x800!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2F4a%2F05%2F112a3b914647a87e2594c0770143%2F16-right.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Motorcycles</h5>
+          <p class="card-text"></p>
+          <a href="#" class="btn btn-primary">Show More...</a>
+        </div>
+      </div> 
+
+<br>
+
+      <div class="card col-12 col-md-4  col-lg-3 col-xl-4"  >
+        <img src="https://www.motortrend.com/uploads/sites/11/2019/09/2020-BMW-M4-M-Heritage-Edition-1.jpg?fit=around%7C875:492.1875" class="card-img-top img-fluid" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ford Focus</h5>
+          <p class="card-text"></p>
+          <a href="#" class="btn btn-primary">Show More...</a>
+        </div>
+      </div> 
+
+      <div class="card col-12 col-md-4  col-lg-3 col-xl-4"  >
+        <img class="img-fluid" src="https://www.bordermotorgroup.co.uk/uploads/images/products/large/border-motor-group-ford-ford-focus-st-3-turbo-1580576430-0.jpg" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">BMW M4</h5>
+          <p class="card-text"></p>
+          <a href="#" class="btn btn-primary">Show More...</a>
+        </div>
+      </div> 
+
+      <div class="card col-12 col-md-4 col-lg-3 col-xl-4"  >
+        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2020-ford-fusion-mmp-1-1568742907.jpeg?crop=0.580xw:0.650xh;0.348xw,0.297xh&resize=640:*" class="card-img-top img-fluid" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ford Fusion</h5>
+          <p class="card-text"></p>
+          <a href="#" class="btn btn-primary">Show More...</a>
+        </div>
+      </div>  
+  </div>
+
+</div>
+
+<br/>
+
+
+<!--Footer-->
+<div class="row p-1 text-center" >
+        <nav class="navbar  w-100  p-3  " id="firstrow">
+          <ul class="nav w-100 list-group-horizontal-md ">
+            <li class=" text-center h4  col-md-3"><a href="" class="text-decoration-none " id="text">Contact us</a></li>
+            <li class=" text-center  h4  col-md-3"><a href=""class="text-decoration-none " id="text">Live Chat</a></li>
+            <li class=" text-center h4  col-md-3"><a href="" class="text-decoration-none " id="text">Shipping</a></li>
+            <li class=" text-center h4  col-md-3"><a href="" class="text-decoration-none" id="text">Terms and Conditions</a></li>
+          </ul>
+          </nav>
+      </div>
+    </div>
+
+
+    <div class="row w-auto">
+          <nav class="navbar  w-100  p-3 mb-0  d-none d-md-block" id="firstrow">
+        
+        <ul class="nav w-100 list-group-horizontal-md border-0 mb-0 ">
+          <li class=" text-center col-md"><ul class="list-group list-group-flush">
+          <li class="list-group-item"><strong><a href="" class="text-decoration-none text-dark">About Us</a></strong></li>
+          <li class="list-group-item"><a href="" class="text-decoration-none text-dark">Achievements</a></li>
+          <li class="list-group-item"><a href="" class="text-decoration-none text-dark">Products</a></li>
+          <li class="list-group-item"><a href="" class="text-decoration-none text-dark">Ships</a></li>
+        </ul></li>
+        <li class=" text-center col-md"><ul class="list-group list-group-flush">
+          <li class="list-group-item"><strong><a href="" class="text-decoration-none text-dark">Cars</a></strong></li>
+          <li class="list-group-item"><a href="" class="text-decoration-none text-dark">Cope</a></li>
+          <li class="list-group-item"><a href="" class="text-decoration-none text-dark">Miniven</a></li>
+          <li class="list-group-item"><a href="" class="text-decoration-none text-dark">Standard</a></li>
+        </ul></li>
+        <li class=" text-center col-md"><ul class="list-group list-group-flush">
+          <li class="list-group-item"><strong><a href="" class="text-decoration-none text-dark">Bikes</a></strong></li>
+          <li class="list-group-item"><a href="" class="text-decoration-none text-dark">For Babies</a></li>
+          <li class="list-group-item"><a href="" class="text-decoration-none text-dark">Teens</a></li>
+          <li class="list-group-item"><a href="" class="text-decoration-none text-dark">Sport</a></li>
+        </ul></li>
+        <li class=" text-center col-md"><ul class="list-group list-group-flush">
+          <li class="list-group-item"><strong><a href="" class="text-decoration-none text-dark">Motorcycles</a></strong></li>
+          <li class="list-group-item"><a href="" class="text-decoration-none text-dark">Moped</a></li>
+          <li class="list-group-item"><a href="" class="text-decoration-none text-dark">Electric</a></li>
+          <li class="list-group-item"><a href="" class="text-decoration-none text-dark">Standard</a></li>
+        </ul></li>
+        <li class=" text-center col-md"><ul class="list-group list-group-flush">
+          <li class="list-group-item"><strong><a href="" class="text-decoration-none text-dark">Media</a></strong></li>
+          <li class="list-group-item"><a href="" class="text-decoration-none text-dark">Photos</a></li>
+          <li class="list-group-item"><a href="" class="text-decoration-none text-dark">Videos</a></li>
+          <li class="list-group-item"><a href="" class="text-decoration-none text-dark">Description</a></li>
+        </ul></li>
+         
+        </ul>
+         </nav>
+      </div>
+
+
+      <div class="row p-3 bg-light">
+        <div class="text col-md-3 h4 text-dark d-none d-md-block">
+          Find us on:
+        </div>
+        <div class="logo col-md-1 col-1">
+         <a href="https://www.facebook.com/"> <img src="https://image.flaticon.com/icons/svg/174/174848.svg" alt="" width="40" height="40" style="margin-left: 60px;"></a>
+        </div>
+        <div class="logo1 col-md-1 col-1">
+          <a href="https://www.instagram.com/?hl=en"> <img src="https://image.flaticon.com/icons/svg/174/174855.svg" alt="" width="40" height="40" style="margin-left: 60px;"></a>
+         </div>
+         <div class="logo2 col-md-1 col-1">
+          <a href="https://twitter.com/explore"> <img src="https://image.flaticon.com/icons/svg/174/174876.svg" alt="" width="40" height="40" style="margin-left: 60px;"></a>
+         </div>
+         <div class="logo3 col-md-1 col-2">
+          <a href="https://www.youtube.com/"> <img src="https://image.flaticon.com/icons/svg/174/174883.svg" alt="" width="40" height="40" style="margin-left: 60px;"></a>
+         </div>
+            
+
+              <div class="copyright col-md-5 h4 text-dark col-12 text-center">
+                © Elen Ghazaryan
+              </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
